@@ -1,0 +1,17 @@
+.popover {
+    position: relative;
+
+    .chevron-up {
+        display: none;
+    }
+
+    &.open {
+        .chevron-up {
+            display: inline-block;
+        }
+
+        .chevron-down {
+            display: none;
+        }
+    }
+}
